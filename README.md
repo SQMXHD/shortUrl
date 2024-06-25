@@ -63,7 +63,7 @@ if (!-e $request_filename) {
 rewrite /([^/.]+)/?$  /url/create.php?id=$1 last;
 #例：https://qq.com/url/
 #rewrite /([^/.]+)/?$  /url/create.php?id=$1 last;
-#https://qq.com/url/短地址
+#https://qq.com/短地址
 }
 ```
 
