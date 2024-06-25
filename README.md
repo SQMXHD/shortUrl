@@ -48,6 +48,8 @@ apache可以直接使用；
 nginx需要配置文件中引入.htaccess-nginx     
 
 nignx引入教程：https://jianlong.blog.csdn.net/article/details/85689930
+
+```html
 if (!-e $request_filename) {
 #-e filename 如果 filename存在，则为真
 #-d filename 如果 filename为目录，则为真 
@@ -63,6 +65,5 @@ rewrite /([^/.]+)/?$  /url/create.php?id=$1 last;
 #rewrite /([^/.]+)/?$  /url/create.php?id=$1 last;
 #https://qq.com/url/短地址
 }
-
-
+```
 
